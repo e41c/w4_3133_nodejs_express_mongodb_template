@@ -36,7 +36,7 @@ app.get('/employee', async (req, res) => {
 });
 
 //Search By First Name - PATH Parameter
-//http://localhost:8081/employees/firstname/pritesh
+//http://localhost:8081/employees/firstname/eric
 app.get('/employees/firstname/:name', async (req, res) => {
   const name = req.params.name
   //const employees = await employeeModel.find({firstname : name});
